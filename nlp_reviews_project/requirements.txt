@@ -1,0 +1,15 @@
+pandas
+numpy
+spacy
+nltk
+textacy
+scikit-learn
+bertopic
+plotly
+streamlit
+textstat
+gensim
+wordcloud
+sentence-transformers
+regex
+tqdm

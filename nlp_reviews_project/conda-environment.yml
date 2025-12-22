@@ -1,0 +1,30 @@
+name: nlp-reviews
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - spacy
+  - nltk
+  - plotly
+  - streamlit
+  - umap-learn
+  - hdbscan
+  - bertopic
+  - sentence-transformers
+  - textacy
+  - floret
+  - gensim
+  - wordcloud
+  - textstat
+  - regex
+  - tqdm
+  - pyarrow
+  - pillow
+  - pip:
+    # If any packages are missing on conda-forge, install them via pip after env creation
+    # (you can also run `pip install -r nlp_reviews_project/requirements.txt` inside the env)
+    - -r nlp_reviews_project/requirements.txt
