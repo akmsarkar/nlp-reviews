@@ -1,0 +1,11 @@
+pandas
+numpy
+nltk
+scikit-learn
+plotly
+streamlit
+textstat
+gensim
+wordcloud
+regex
+tqdm
